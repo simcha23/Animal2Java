@@ -21,6 +21,6 @@ public class AnimalTests {
     }
     @Test
     public void TestCatEats(){
-        Assert.assertEquals(cat.sound(),"Meow");
+        Assert.assertEquals(cat.eat(),"Food");
     }
 }
